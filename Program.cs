@@ -8,3 +8,15 @@
 
 string[] arrayFirst = new string[5] {"one", "two", "three", "four", "five"};
 string[] arraySecond = new string[arrayFirst.Length];
+void SecondArray(string[] arrayFirst, string[] arraySecond)
+{
+    int count = 0;
+    for (int i = 0; i < arrayFirst.Length; i++)
+    {
+        if (arrayFirst[i].Length <= 3)
+        {
+            arraySecond[count] = arrayFirst[i];
+            count++;
+        }
+    }
+}
