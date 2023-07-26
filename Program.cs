@@ -7,3 +7,4 @@
 */
 
 string[] arrayFirst = new string[5] {"one", "two", "three", "four", "five"};
+string[] arraySecond = new string[arrayFirst.Length];
